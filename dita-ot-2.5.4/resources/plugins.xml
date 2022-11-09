@@ -483,6 +483,8 @@
   <template file="xsl/map2htmltoc_template.xsl"/>
   <template file="xsl/map2html-coverImpl_template.xsl"/>
 </plugin><plugin id="org.shelden93.xhtml" xml:base="../plugins/org.shelden93.xhtml/plugin.xml">
+    <require plugin="org.dita.xhtml"/>
+    <require plugin="org.shelden93.base"/>
 </plugin><plugin id="com.sophos.tocjs" xml:base="../plugins/com.sophos.tocjs/plugin.xml">
   <transtype desc="TocJS" extends="html5" name="tocjs"/>
   <feature extension="dita.conductor.target" file="integrator.xml"/>
